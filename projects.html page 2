@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Portal - Projects</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+</nav>
+
+<section class="section">
+    <h1>Project Goals</h1>
+
+    <div class="card">
+        <h3>Provide Accessible Information</h3>
+        <p>Create an easy-to-use portal where SHS students can find resources.</p>
+    </div>
+
+    <div class="card">
+        <h3>Promote Practical Learning</h3>
+        <p>Offer step-by-step guides and useful study materials.</p>
+    </div>
+
+    <div class="card">
+        <h3>Encourage Healthy Habits</h3>
+        <p>Introduce productivity and time management tips.</p>
+    </div>
+</section>
+
+</body>
+</html>
