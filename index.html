@@ -3,26 +3,120 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Student Portal - Home</title>
-<link rel="stylesheet" href="style.css">
+<title>Student Portal</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+ 
+nav {
+    background-color: #2f6f6d;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #e6f2ef;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f4efe7;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2f6f6d;
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #2f6f6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #255c5a;
+}
+
+.card {
+    border: 2px solid #2f6f6d;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 600px;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #2f6f6d;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+</style>
+
 </head>
 <body>
 
 <nav>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About Us</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Us</a></li>
     </ul>
 </nav>
 
-<section class="section">
+<section id="home" class="section">
     <h1>What is the website all about?</h1>
     <p>
         The website is all about creating a simple portal for SHS students.
         It will provide access to announcements, class schedules, and downloadable
         study resources. It will also allow students to contact teachers or the
-        school office.
+        school office. The portal aims to improve communication between students,
+        teachers and the school administration.
     </p>
 
     <h2>Possible Website Names</h2>
@@ -33,6 +127,43 @@
     </div>
 </section>
 
+<section id="projects" class="section">
+    <h1>Project Goals</h1>
+
+    <div class="card">
+        <h3>Provide Accessible Information</h3>
+        <p>Create an easy-to-use portal where SHS students can find recipes, cooking tips and resources.</p>
+    </div>
+
+    <div class="card">
+        <h3>Promote Practical Learning</h3>
+        <p>Offer step-by-step guides to practice cooking skills and kitchen safety.</p>
+    </div>
+
+    <div class="card">
+        <h3>Encourage Healthy Habits</h3>
+        <p>Introduce simple and budget-friendly meals for better lifestyle.</p>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h1>Problems</h1>
+
+    <div class="columns">
+        <div class="box">
+            <p><b>1. Technical Skills</b> – Students may lack knowledge in web development.</p>
+            <p><b>2. Limited Resources</b> – Internet and devices may be limited.</p>
+            <p><b>3. Time Management</b> – Balancing school and project is hard.</p>
+            <p><b>4. Content Quality</b> – Making good content is challenging.</p>
+        </div>
+
+        <div class="box">
+            <p><b>5. Design and Usability</b> – Needs effort to make it user-friendly.</p>
+            <p><b>6. Collaboration Issues</b> – Group coordination can be difficult.</p>
+            <p><b>7. Sustainability</b> – Maintaining the portal is challenging.</p>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>
-
